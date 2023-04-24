@@ -145,7 +145,7 @@ if __name__ == "__main__":
         default=True,
         type=bool,
     )
-    parser.add_argument("--model_type", help="Choose model from [resnet, efficientnet, custom]", default="custom", type=str)
+    parser.add_argument("--model_type", help="Choose model from [resnet, efficientnet, custom]", default="efficientnet", type=str)
     args = parser.parse_args()
 
     main(args)
