@@ -17,11 +17,11 @@ The model can detect some level of exhaustion in the muscle as the accuracy is n
 
 Follow the steps below after the repository has been cloned. 
 
-- Create a virtual environment, ie 'py -3.10 -m venv .venv'
-- Run 'pip install -r requirements.txt' to install all necessary packages
+- Create a virtual environment, ie `py -3.10 -m venv .venv`
+- Run `pip install -r requirements.txt` to install all necessary packages
 
 # Usage
-To train and test the model run 'py model\main.py'.
+To train and test the model run `py model\main.py`.
 
 The following arguments can be added to the command above:
 - nb_epochs (determines numbers of epochs to run. Default = 10)
@@ -29,4 +29,4 @@ The following arguments can be added to the command above:
 - model_type (chooses with model to go with. Options are resnet, efficientnet, custom. Default = efficientnet)
 
 Custom model_type can be changed in the model\net.py file.
-Arguments can be added to the 'py model\main.py' by adding '--model_type resnet', so 'py model\main.py --model_type resnet'.
+Arguments can be added to the `py model\main.py` by adding `--model_type resnet`, so `py model\main.py --model_type resnet`.
