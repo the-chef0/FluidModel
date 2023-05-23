@@ -1,4 +1,4 @@
-#  Muscle exhaustion detection based on ultrasound images
+#  Muscle fatigue detection based on ultrasound images
 
 Based on ultrasound images the model provides an estimate of the level of exhaustion of the muscle.
 
@@ -10,8 +10,8 @@ Based on ultrasound images the model provides an estimate of the level of exhaus
 
 ## Project Description
 
-This project data was collected by performing a series of squats until exhaustion was reached. For every squat the image of the ultrasound probe was saved and then was assigned a category based on the level of exhaustion (1 through 5).
-The model can detect some level of exhaustion in the muscle as the accuracy is not completely random (around 31%) when it uses the EffientnetV2 architecture. 
+This project data was collected by performing a series of squats for 5 minutes. For every squat the image of the ultrasound probe was saved and then was assigned a category based on the level of fatigue (1 through 5).
+The model can detect some level of fatigue in the muscle as the accuracy is not completely random (around 31%) when it uses the EffientnetV2 architecture. 
 
 ## Installation
 
